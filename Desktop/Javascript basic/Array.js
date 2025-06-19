@@ -1,44 +1,11 @@
-/*let color=["red" , "blue"]
-color[2]="green",1
-console.log(color[0]);
-console.log(color.length);*/
 
-
-/*const number = [3,4]
-
-// end of array
-number.push(5,6)
-
-//begining 
-number.unshift(1,2)
-
-// middle 
-number.splice(2,0)
-console.log(number);
-
-// index of array 
-console.log(number.indexOf(1));
+// (Q) index of array 
+/**console.log(number.indexOf(1));
 console.log(number.lastindexOf(1) !== (2))*/
 
 
-/*const course = [
-    {
-        id : 1, name: 'a'
-    },
-    {
-        id: 2, name : 'b'
-    }
-]
-const course = course.findIndex(function(course)){
-    return course.name ==="xyz";
-
-}
- console.log(course);*/
-
-
-/* // removing element 
-
- const number = [1,2,3,4,5];
+ //(Q) removing element 
+ /*const number = [1,2,3,4,5];
  // fron end
  const last = number.pop()
 
@@ -49,19 +16,8 @@ const course = course.findIndex(function(course)){
  number.splice(2,2);
  console.log(number);*/
 
-/* // combining 
- const first=[1,2,3]
- const second=[4,4,6]
 
- const combined = first.concat(second)
- const slice = combined.slice(2,3);
-
- console.log(combined);
- console.log(...first,...second);
-
- cnsole.log(slice);*/
-
- //--------------------( sorting of array )-------------------//
+ //(Q) sorting of array 
  /*const course = [
     { id: 1, name: "node.js"}
     {id: 2, name: "javascript"}
@@ -75,19 +31,74 @@ const course = course.findIndex(function(course)){
 
  })*/
 
-// add element
-//finding element
-//arrow function
-//removing element
-//emtying an array
-//combining and slicing array
-// the spread operator 
-// iteart an array
-// joining array
+
+// (Q) removing element
+ /*const number = [1,2,3,4,5];
+ // fron end
+ const last = number.pop()
+
+ // in begining
+ const first = number.shift()
+
+ // middle
+ number.splice(2,2);
+ console.log(number);
+//  (Q)emtying an array
+
+
+//  (Q)combining and slicing array
+/*
+ const first=[1,2,3]
+ const second=[4,4,6]
+
+ const combined = first.concat(second)
+ const slice = combined.slice(2,3);
+
+ console.log(combined);
+ console.log(...first,...second);
+
+ cnsole.log(slice);*/
+
+
+// (Q)the spread operator 
+
+
+//(Q) iteart an array
+
+
+//(Q) joining array
+/*
+ const first=[1,2,3]
+ const second=[4,4,6]
+
+ const combined = first.concat(second)
+ const slice = combined.slice(2,3);
+
+ console.log(combined);
+ console.log(...first,...second);
+
+ cnsole.log(slice);*/
+
+
 //testing the element of an array
+
+
  //filtering Array
+
+
  //mapping an array
+
+
  // reducing
+ /*const numbers = [1, -1,2,3];
+ let sum = 0;
+ for (let n of number)
+    sum+=n;
+    console.log(sum);
+    number.reduce((accumulator , currenvalue) => {
+        return accumulator + currenvalue;
+    })
+ 
 
  //    ====> Arrays operations 
 
@@ -144,6 +155,9 @@ n.forEach((e) => {
     console.log(e);
 })
 
+
+    =====>>  Summary
+
  //----------------------------( topics of array )-----------------------//
 
  // add element
@@ -173,6 +187,20 @@ n.forEach((e) => {
 //10 . foreach (print all elements)
  
  
+
+/*const course = [
+    {
+        id : 1, name: 'a'
+    },
+    {
+        id: 2, name : 'b'
+    }
+]
+const course = course.findIndex(function(course)){
+    return course.name ==="xyz";
+
+}
+ console.log(course);*/
 
 
 

@@ -14,7 +14,7 @@
  console.log("goog evening");
 }*/
 // nested if...else
-function checkgrade(score){
+/*function checkgrade(score){
     let grade;
     if (score>=90) {
         grade="a";
@@ -34,9 +34,41 @@ function checkgrade(score){
     }
     console.log(grade);
 }
-checkgrade(80);
+checkgrade(80);*/
 
  //switch...case
+/*function checkday(){
+     let day;
+     switch (checkday) {
+        case 0:
+            day = "mon"
+            break;
+                   case 1:
+            day = "tue"
+            break;
+              case 2:
+            day = "wed"
+            break;
+              case 3:
+            day = "thus"
+            break;
+              case 4:
+            day = "fri"
+            break;
+              case 5:
+            day = "sta"
+            break;
+              case 6:
+            day = "sun"
+            break;
+            
+
+     
+        default:
+            console.log("invalid");
+            break;
+     }
+}*/
  
 
  //break and continue

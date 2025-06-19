@@ -24,12 +24,6 @@ for (const number of array) {
     h++;
  } while (h<=10);*/
 
- // infinit loops
- for (let i = 0; 1 < 2; 1++) {
-    console.log(i);
-    
- }
-
  // for ... in loop
  /*const person = {
     naam : "danish",
