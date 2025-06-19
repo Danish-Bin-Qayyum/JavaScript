@@ -1,9 +1,9 @@
 
 // --------------------( types of loops )-----------------//
  // for loop
- /*for ( let i =0 ; i< 5; i++){
+ for ( let i =0 ; i< 5; i++){
     console.log("hello word",i);
-}*/
+}
 
 // for...of
 /*let array =[1,2,3,4,5,6]
