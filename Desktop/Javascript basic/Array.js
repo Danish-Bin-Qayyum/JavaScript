@@ -1,10 +1,10 @@
 
-// (Q) index of array 
+// (Q . 1) index of array 
 /**console.log(number.indexOf(1));
 console.log(number.lastindexOf(1) !== (2))*/
 
 
- //(Q) removing element 
+ //(Q . 2) removing element 
  /*const number = [1,2,3,4,5];
  // fron end
  const last = number.pop()
@@ -17,7 +17,7 @@ console.log(number.lastindexOf(1) !== (2))*/
  console.log(number);*/
 
 
- //(Q) sorting of array 
+ //(Q . 3) sorting of array 
  /*const course = [
     { id: 1, name: "node.js"}
     {id: 2, name: "javascript"}
@@ -32,7 +32,7 @@ console.log(number.lastindexOf(1) !== (2))*/
  })*/
 
 
-// (Q) removing element
+// (Q . 4) removing element
  /*const number = [1,2,3,4,5];
  // fron end
  const last = number.pop()
@@ -46,7 +46,7 @@ console.log(number.lastindexOf(1) !== (2))*/
 //  (Q)emtying an array
 
 
-//  (Q)combining and slicing array
+//  (Q . 5)combining and slicing array
 /*
  const first=[1,2,3]
  const second=[4,4,6]
@@ -60,13 +60,13 @@ console.log(number.lastindexOf(1) !== (2))*/
  cnsole.log(slice);*/
 
 
-// (Q)the spread operator 
+// (Q . 6)the spread operator 
 
 
-//(Q) iteart an array
+//(Q . 7) iteart an array
 
 
-//(Q) joining array
+//(Q . 8) joining array
 /*
  const first=[1,2,3]
  const second=[4,4,6]
@@ -186,9 +186,7 @@ n.forEach((e) => {
 // 9 . include (find a specefic array)
 //10 . foreach (print all elements)
  
- 
-
-/*const course = [
+                    
     {
         id : 1, name: 'a'
     },

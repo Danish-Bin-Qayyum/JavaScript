@@ -78,13 +78,6 @@ console.log(c2.color);
  let address = {
     street: "a",
     city: "b",
-    zipcode: 'c',
-
- }
-
- //exercise
- //exercise
- //exercise
- //exercise
-
+    zipcode: "c",
+}
 
