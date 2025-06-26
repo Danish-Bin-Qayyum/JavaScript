@@ -1,7 +1,7 @@
 
 //------------------  error handind --------------/
 
-let num =20
+/*let num =20
 
 try {
     // code block which may have error
@@ -14,4 +14,4 @@ try {
 } catch (error){
     //handing error here
     console.log("there is a error");
-}
+}*/

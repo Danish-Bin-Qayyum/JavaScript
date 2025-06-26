@@ -199,6 +199,265 @@ const course = course.findIndex(function(course)){
 
 }
  console.log(course);*/
+ 
 
 
+//---------(  pull from github by udemay cours )------------------//
+
+/*"use strict";
+
+/**
+ * Array - traversal and accessing elements
+ * @scenairo
+ * 1. Access an inner object property
+ * 2. Acceess an inner array elementsAdd commentMore actions
+ * 3. Access elements across different objects (by finding the path)
+ *
+ * @note
+ * 1. Use [] to access an array's elements
+ * 2. Use dot (.) operator for object in most cases
+ *
+ 
+
+// Array containing an object
+let arr = [
+  {
+    name: "Rob",
+    age: 25,
+  },
+  {
+    name: "Bob",
+    age: 30,
+  },
+]
+
+console.log(arr[1]); // prints the second obj
+console.log(arr[1].age); // 30
+
+// Array containing an array
+
+let arr = [
+  [1, 2, 3],
+  ["one", "two", "three"],
+];
+
+console.log(arr[1][2]); // three
+
+
+// A typical usecase of array and object
+
+let book = [
+  {
+    category: "reference",
+    author: "Nigel Rees",
+    title: "Sayings of the Century",
+    price: 8.95,
+  },
+  {
+    category: "fiction",
+    author: "Evelyn Waugh",
+    title: "Sword of Honour",
+    price: 12.99,
+  },
+  {
+    category: "fiction",
+    author: "Herman Melville",
+    title: "Moby Dick",
+    isbn: "0-553-21311-3",
+    price: 8.99,
+  },
+];
+
+// Get only the prices values
+
+let priceArr = []
+for(let i = 0; i < book.length; i++){
+    let price = book[i].price
+    priceArr.push(price)
+}
+
+console.log(priceArr);
+
+Add commentMore actions
+
+/**
+ * Adding elements to array
+ * @options
+ * 1. Assignment operator
+ * 2. Using .push() method
+ 
+
+ let arr = ["apple", "orange", "banana"]
+
+ // 1. Assignment operator
+ arr[3] = "mango"
+
+ // 2 . Using .push() method
+ arr.push("kiwi")
+
+
+// Check
+console.log(arr);
+console.log(`Total elements: ${arr.length}`);
+
+More actions
+/**
+ * Array Intro
+ *
+ * @scenario
+ * 1. Array are mutable
+ * 2. Array are internally an Object
+ 
+
+// 1. Array are mutable
+
+let str = "Hello";
+let arr = [1, 2, 3];
+
+console.log(str.toUpperCase()); // HELLO
+console.log(str);
+
+console.log(arr.push(4));
+console.log(arr); // Mutable
+
+console.log(arr[2]); // 3
+console.log(arr["2"]); // 3
+
+Add commentMore actions
+ * Array creation - different options
+ *
+ * @options
+ * 1. Literals (most commonly used)
+ * 2. Constructor function
+ * 3. Object creation using new keyword
+ *
+ 
+
+//  1. Literals (most commonly used)
+let arr = ["apple", "orange", "banana"]
+
+// Constructor function
+// let arr = Array("apple", "orange", "banana")
+
+// Object creation using new keyword
+// let arr = new Array("apple", "orange", "banana")
+
+
+// Check
+console.log(arr); 
+console.log(`Single ele: ${arr[1]}`);
+console.log(typeof arr); // Object
+console.log(arr.constructor);
+
+Add commentMore actions
+ * Use of filter method
+ * @usecase
+ * Find elements which meets some conditions
+ *
+ * @returns
+ * Filtered Array
+ 
+
+let book = [
+  {
+    category: "reference",
+    author: "Nigel Rees",
+    title: "Sayings of the Century",
+    price: 8.95,
+  },
+  {
+    category: "fiction",
+    author: "Evelyn Waugh",
+    title: "Sword of Honour",
+    price: 12.99,
+  },
+  {
+    category: "fiction",
+    author: "Herman Melville",
+    title: "Moby Dick",
+    isbn: "0-553-21311-3",
+    price: 8.99,
+  },
+];
+
+// Get books which are > $10
+let res = book.filter(ele => ele.price > 7)
+console.log(res);
+
+Add commentMore actions
+ * length property rules
+ *
+ * @rules
+ * 1. length property returns total index + 1. This does not mean there are that many elements in that object
+ * 2. length property can be set manually
+ 
+
+// Rule 1
+let arr = []
+arr[4] = "kiwi"
+console.log(arr);
+console.log(`Total elements: ${arr.length}`); // 5
+
+let count = 0
+for(let i = 0; i < arr.length; i++){
+    if(arr[i]) {
+        count ++
+    }
+}
+
+console.log(`The actual count is: ${count}`);
+
+// Rule 2
+
+let arr = []
+arr.length = 10
+console.log(arr);
+console.log(`The total elements: ${arr.length}`);
+
+More actions
+/**
+ * Merge array using of spread operator
+ 
+
+ let arr1 = ["apple", "orange", "banana"];
+ let arr2 = ["chocolate", "biscuit", "cake"];
+ 
+ let arr = [...arr1, ...arr2]
+
+ console.log(arr); 
+ console.log(arr.length); // 6Add comment
+
+ Add commentMore actions
+ * 2. Different type of data
+ * 3. Array containing an object
+ * 4. Array containing an array
+ 
+
+// 1. Same type of data
+let arr = ["apple", "orange", "banana"];
+
+// 2. Different type of data
+let arr = [1, "two", true]
+
+// 3. Array containing an object
+let arr = [
+  {
+    name: "Rob",
+    age: 25,
+  },
+  {
+    name: "Bob",
+    age: 30,
+  },
+];
+
+//  4. Array containing an array
+let arr = [
+  [1, 2, 3],
+  ["one", "two", "three"],
+];
+
+// check
+console.log(arr);
+console.log(`Total elements: ${arr.length}`);*/
 
