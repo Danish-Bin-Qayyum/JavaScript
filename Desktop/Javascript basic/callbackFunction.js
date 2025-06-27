@@ -18,7 +18,21 @@ function calc(fx,a,b) {
 function getuserdata(params) {
     provessdata("danish")
 }
-
 getuserdata()*/
+
+
+/*function greet(name, callback) {
+    console.log('hello' + name);
+    callback();
+}
+///calling function
+function welcom(params) {
+    console.log("wellcom.....");
+    
+}
+
+greet('danish', welcom)*/
+
+
 
 
